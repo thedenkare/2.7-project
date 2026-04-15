@@ -1,5 +1,5 @@
 var body = document.body;
-body.style.backgroundColor = "midnightblue"; // Темно-синий фон
+body.style.backgroundColor = "midnightblue"; 
 body.style.display = "flex";
 body.style.justifyContent = "center";
 body.style.alignItems = "center";
@@ -12,10 +12,10 @@ mainBox.style.gap = "20px";
 body.appendChild(mainBox);
 
 var cardLeft = document.createElement("div");
-cardLeft.style.backgroundColor = "darkslateblue"; // Цвет карточки
+cardLeft.style.backgroundColor = "darkslateblue"; 
 cardLeft.style.padding = "40px";
 cardLeft.style.borderRadius = "10px";
-cardLeft.style.borderTopRightRadius = "100px"; // Тот самый уголок
+cardLeft.style.borderTopRightRadius = "100px"; 
 mainBox.appendChild(cardLeft);
 
 var title = document.createElement("h1");
@@ -25,7 +25,7 @@ title.style.fontFamily = "sans-serif";
 cardLeft.appendChild(title);
 
 var btn1 = document.createElement("button");
-btn1.innerText = "📄";
+btn1.innerText = "";
 btn1.style.padding = "10px";
 btn1.style.marginRight = "5px";
 btn1.style.backgroundColor = "midnightblue";
@@ -34,7 +34,7 @@ btn1.style.borderRadius = "5px";
 cardLeft.appendChild(btn1);
 
 var btn2 = document.createElement("button");
-btn2.innerText = "📁";
+btn2.innerText = "";
 btn2.style.padding = "10px";
 btn2.style.marginRight = "5px";
 btn2.style.backgroundColor = "midnightblue";
@@ -43,7 +43,7 @@ btn2.style.borderRadius = "5px";
 cardLeft.appendChild(btn2);
 
 var btn3 = document.createElement("button");
-btn3.innerText = "☁️";
+btn3.innerText = "";
 btn3.style.padding = "10px";
 btn3.style.backgroundColor = "midnightblue";
 btn3.style.border = "none";
@@ -56,7 +56,7 @@ cardRight.style.padding = "40px";
 cardRight.style.borderRadius = "10px";
 cardRight.style.width = "400px";
 cardRight.style.position = "relative";
-cardRight.style.alignSelf = "flex-end"; // Чтобы стояла вровень снизу
+cardRight.style.alignSelf = "flex-end";
 mainBox.appendChild(cardRight);
 
 var info = document.createElement("p");
@@ -73,7 +73,7 @@ track.style.padding = "2px";
 cardRight.appendChild(track);
 
 var bar = document.createElement("div");
-bar.style.backgroundColor = "deeppink"; // Яркий розовый цвет
+bar.style.backgroundColor = "deeppink"; 
 bar.style.height = "100%";
 bar.style.width = "80%";
 bar.style.borderRadius = "10px";
